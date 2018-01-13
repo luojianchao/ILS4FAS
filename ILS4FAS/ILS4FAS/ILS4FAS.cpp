@@ -246,7 +246,7 @@ void fnParetoDominanceAcceptanceCriterion(int **nArrIniPop1, int **nArrIniFs1, i
 void fnSearchLocal(int *nPmatrix, int nJss, int *nPmatrix1, int nC)
 {
 	int length = (int)(nC / 5);
-	int rnum = (int)(nC*0.04);
+	int rnum = (int)(nC*0.05);
 	int *maxp = new int[rnum];
 	int *maxo = new int[rnum];
 	for (int i = 0; i < nC; i++)
